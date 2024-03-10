@@ -17,4 +17,4 @@ Working website with current version of that project is hosted on [martaku.ct8.p
 > - the game ends when first player gets all its counters to the boxes
 
 \
-Data is stored using MongoDB.\
+Data is stored using MongoDB.
