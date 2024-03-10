@@ -1,0 +1,50 @@
+#~ index:
+
+msgid "Little chinese man"
+msgstr "Kleiner chinesischer Mann"
+
+msgid "Play"
+msgstr "Spielen"
+
+msgid "Nick"
+msgstr "Spitznamen"
+
+msgid "Change"
+msgstr "Veränderung"
+
+#~ game:
+
+msgid "GAME ID"
+msgstr "SPIEL-ID"
+
+msgid "you"
+msgstr "du"
+
+msgid "ready to play"
+msgstr "bereit zum spielen"
+
+msgid "waiting for others"
+msgstr "warten auf andere"
+
+msgid "Roll"
+msgstr "Rollen"
+
+#~ end:
+
+msgid "Winner"
+msgstr "Gewinner"
+
+msgid "red"
+msgstr "rot"
+
+msgid "blue"
+msgstr "blau"
+
+msgid "green"
+msgstr "grün"
+
+msgid "yellow"
+msgstr "gelb"
+
+msgid "back to main menu"
+msgstr "zurück zum Hauptmenü"

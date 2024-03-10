@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.playerList{
+    width: 100%;
+    margin-bottom: 2vw;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#kostka-container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#plansza-container{
+    width: 60%;
+    display: flex;
+    justify-content: left;
+}
+
+table{
+    border-collapse: collapse;
+    width: 35vw;
+    height: 35vw;
+}
+
+td.baza, td.pole{
+    border: 1px solid black;
+}
+
+td>img{
+    width: 100%;
+}
+
+td{
+    width: 9%;
+    height: 9%;
+}
+
+td.baza.red{
+    background-color: rgb(255, 0, 0, 0.5);
+}
+
+td.pole.red-main{
+    background-color: rgb(255, 88, 88, 0.5);
+}
+
+td.pole.red-box{
+    background-color: rgb(255, 139, 139, 0.5);
+}
+
+td.baza.blue{
+    background-color: rgb(0, 0, 255, 0.5);
+}
+
+td.pole.blue-main{
+    background-color: rgb(67, 67, 255, 0.5);
+}
+
+td.pole.blue-box{
+    background-color: rgb(136, 136, 255, 0.5);
+}
+
+td.baza.yellow{
+    background-color: rgba(255, 255, 42, 0.5);
+}
+
+td.pole.yellow-main{
+    background-color: rgba(255, 255, 109, 0.5);
+}
+
+td.pole.yellow-box{
+    background-color: rgb(255, 255, 182, 0.5);
+}
+
+td.baza.green{
+    background-color: rgb(0, 159, 0, 0.5);
+}
+
+td.pole.green-main{
+    background-color: rgb(36, 199, 36, 0.5);
+}
+
+td.pole.green-box{
+    background-color: rgb(106, 234, 106, 0.5);
+}
+
+td.pole{
+    background-color:antiquewhite;
+}
+
+#pionek-prediction{
+    background-color: rgb(162, 162, 162, 0.5);
+}
+
+div.pionek{
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+    transition-duration: 0.1s;
+    float: left;
+}
+
+div.pionek:hover{
+    transition-duration: 0.1s;
+    /* transform: scale(1.1); */
+    cursor: pointer;
+}
+
+#pionek-red-1, #pionek-red-2, #pionek-red-3, #pionek-red-0{
+    background-color: red;
+}
+
+#pionek-blue-1, #pionek-blue-2, #pionek-blue-3, #pionek-blue-0{
+    background-color: blue;
+}
+
+#pionek-green-1, #pionek-green-2, #pionek-green-3, #pionek-green-0{
+    background-color: green;
+}
+
+#pionek-yellow-1, #pionek-yellow-2, #pionek-yellow-3, #pionek-yellow-0{
+    background-color: yellow;
+}
+
+#kostka{
+    width: 24%;
+}
+
+#rzut{
+    width: 16%;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+#rzut:hover{
+    cursor: pointer;
+}
+
+.game_id_info{
+    font-size: 2em;
+    text-align: center;
+}
+
+.game_id_info > span{
+    font-weight: bold;
+}
+
+.playerList > .players{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1em;
+}
+
+.playerList > .players > div {
+    padding: 0.3vw;
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 3px solid black;
+    min-width: 20%;
+    text-align: center;
+}
+
+#changeStatusBtn{
+    min-width: 10%;
+    text-align: center;
+    margin: auto auto 2em auto;
+    font-size: 1em;
+}
+
+#infoP{
+    color: red;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+#timer{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
