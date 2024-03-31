@@ -1,5 +1,5 @@
 # SEE THE RESULTS
-Working website with current version of that project is hosted on [martaku.ct8.pl](http://martaku.ct8.pl/komunikator).
+Working website with current version of that project is hosted on [martaku.ct8.pl](http://martaku.ct8.pl/chinczyk).
 
 > #### Start:
 > - on the main menu page you can choose your language (Polish / English / Deutsch)
